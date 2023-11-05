@@ -1,0 +1,88 @@
+/* Base styles (for larger screens) */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: cyan !important;
+}
+
+.nav-link, .navbar-brand {
+  color: white;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.logo_section {
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  padding: 10px;
+}
+
+footer {
+  background-color: black;
+  color: antiquewhite;
+  font-size: 14px;
+  font-style: italic;
+  margin-top: auto;
+  padding: 10px;
+}
+
+.logoImg {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+table, td, th {
+  border: 1px solid #cccccc;
+  border-spacing: 0;
+}
+
+table {
+  width: 50%;
+}
+
+th, td {
+  padding: 10px 30px;
+}
+
+.YouTubeVideo {
+  background-color: #b3b0ab;
+  border: 0px;
+  vertical-align: center;
+}
+
+@media (max-width: 768px) {
+  .logo_section {
+    padding: 0 20px; 
+  }
+
+  th, td {
+    padding: 10px 15px; 
+  }
+}
